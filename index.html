@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h1 class="logo">♪ TikTok</h1>
+
+    <input id="search" class="search"
+      type="search" placeholder="⌕  Search videos">
+
+    <nav>
+      <a class="active" href="#feed">🏠 For You</a>
+      <a href="#feed">◎ Explore</a>
+      <a href="#feed">👥 Following</a>
+      <a href="#feed">👫 Friends</a>
+      <a href="#feed">▣ Short videos</a>
+      <a href="#feed">🔴 LIVE</a>
+      <a href="#feed">✉ Messages</a>
+      <a href="#feed">♡ Activity</a>
+      <a href="#upload">＋ Upload</a>
+      <a href="#profile">👤 Profile</a>
+    </nav>
+
+    <p class="side-note">Your video world starts here.</p>
+  </aside>
+
+  <main id="feed" class="feed">
+
+    <header class="mobile-header">
+      <strong>♪ TikTok</strong>
+      <span>Following　|　<span class="active-text">For You</span></span>
+    </header>
+
+    <section id="video-feed" class="video-feed"></section>
+    <source src="section id="upload" class="upload-box">
+      <h2>Add your own video</h2>
+      <p>Select an MP4 video from your computer.</p>
+      <input type="file" id="video-upload" accept="video/*">
+      <button id="upload-button">Add video to feed</button>
+    </section>
+
+    <footer id="profile">
+      <p>My tiktok website </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
